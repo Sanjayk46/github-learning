@@ -9,18 +9,22 @@
 //  row.append(col)
 //  container.append(row)
 //  document.body.append(container)
-function click(){
+
+
+    function submit(){
+    //    let email = document.getElementById("email").value;
+    //    console.log(email);
     var Firstname = document.getElementById("firstname").value;
-    var Middlename = document.getElementById("middlename").value;
-    var Lastname = document.getElementById("Lastname").value;
-    var Email = document.getElementById("email").value;
-    var Pincode = document.getElementById("pincode").value;
     console.log(Firstname);
+    var Middlename = document.getElementById("middlename").value;
     console.log(Middlename);
+    var Lastname = document.getElementById("Lastname").value;
+
     console.log(Lastname);
+    var Email = document.getElementById("email").value;
     console.log(Email);
+    var Pincode = document.getElementById("pincode").value;
     console.log(Pincode);
-}
-click()
+    }
 
 
