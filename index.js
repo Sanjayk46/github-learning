@@ -79,7 +79,7 @@
          var lastnameinput = inputele("input","type","lastname","id","lastname");
          var br8 = br("br");
 
-         var submit = createlabel("button","submit","onclick","click");
+         var submit = createlabel("button","type","submit","clickme");
          var br9 =br("br");
          var br10 = br("br");
          document.body.append(firstname,br3,firstnameinput,br4);
