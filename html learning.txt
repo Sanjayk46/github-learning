@@ -1,0 +1,225 @@
+//question no 6 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+     <style>
+            .flex-container {
+                background-color: dodgerblue;
+                display : flex;
+                text-align:center;
+            }
+            .flex-container>div {
+                margin: 10px;
+                padding: 20px;
+              
+            background-color: #f1f1f1;
+               
+            }
+        </style>
+  </head>
+  <body>
+  <div class="flex-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            
+        </div>
+  </body>
+</html>
+//question 22
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+    <style>
+            .flex-container {
+                display: flex;
+                height: 200px;
+                background-color: dodgerblue;
+              
+                flex-shrink: 0;
+            }
+            .flex-container > div {
+                margin: 10px;
+                padding: 20px;
+                font-size: 30px;
+                text-align: center;
+                background-color: #f1f1f1;
+            }
+        </style>
+  </head>
+  <body>
+   <div class="flex-container">
+            <div>1</div>
+            <div >2</div>
+            <div>3</div>
+   
+        </div>
+  </body>
+</html>
+
+//question 85
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="grid-container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>  
+  <div class="item4">4</div>
+  <div class="item5">5</div>
+  <div class="item6">6</div>
+</div>
+
+</body>
+</html>
+
+//question 60
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+                display: grid;
+          
+                grid-gap: 10px;
+                padding: 10px;
+                grid-template-columns: auto auto auto;
+                 grid-template-rows: 150px 300px;
+                align-content: center;
+                background-color: dodgerblue;
+            }
+            .grid-container > div {
+                padding: 20px;
+                background-color: #f1f1f1;
+                text-align: center;
+                font-size: 30px;
+            }
+
+
+
+
+</style>
+</head>
+<body>
+
+
+<div class="grid-container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>  
+  <div class="item4">4</div>
+  <div class="item5">5</div>
+  <div class="item6">6</div>
+</div>
+
+</body>
+</html>
+
+//question 88
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ .grid-container {
+                display: grid;
+                grid-template-columns: auto auto auto;
+             
+                grid-gap: 20px;
+                padding: 10px;
+             
+                background-color: dodgerblue;
+            }
+            .grid-container >div {
+                padding: 10px;
+                text-align: center;
+                font-size: 30px;
+                background-color: #f1f1f1;
+            }
+
+           
+
+
+
+
+</style>
+</head>
+<body>
+
+
+<div class="grid-container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>  
+  <div class="item4">4</div>
+  <div class="item5">5</div>
+  <div class="item6">6</div>
+</div>
+
+</body>
+</html>
+
+//question 105
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+      <style>
+            .flex-container {
+                display: flex;
+               background-color: dodgerblue;
+               align-content:space-around;
+            }
+            .flex-container >div {
+                margin: 10px;
+                padding: 20px;
+            font-size: 40px;
+                background-color: #f1f1f1; 
+                
+            }
+        </style>
+
+  </head>
+  <body>
+ <div class="flex-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+
+  </body>
+</html>
