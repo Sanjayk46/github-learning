@@ -21,5 +21,6 @@ function click(){
     console.log(Email);
     console.log(Pincode);
 }
+click()
 
 
